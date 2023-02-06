@@ -11,7 +11,7 @@ tag SiteWidth
 	<self[mx:auto px:20px maw:$page-width]>
 		<slot>
 
-export tag HomePage
+tag HomePage
 	<self>
 		<header[bdb:1px solid gray3 @dark:1px solid gray7 py:20px]> 
 			<SiteWidth[d:hcs]>
