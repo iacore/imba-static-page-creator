@@ -1,3 +1,5 @@
+import {layout} from './layout'
+
 import 'imba/reset.css'
 
 global css
@@ -26,7 +28,7 @@ export tag HomePage
 						<h2[fs:xl fw:500]> "It's a good"
 
 
-
+export const homePage = layout do <HomePage>
 
 
 
