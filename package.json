@@ -1,0 +1,17 @@
+{
+  "name": "ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "imba -w src/server.imba",
+    "build": "imba src/build.imba"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0"
+  }
+}
