@@ -28,6 +28,8 @@ tag HomePage
 						<h2[fs:xl fw:500]> "It's a good"
 
 
+# this is what gets used by build.imba and server.imba to render the page
+# it's the above tag wrapped in a layout defined in layout.imba
 export const homePage = layout do <HomePage>
 
 

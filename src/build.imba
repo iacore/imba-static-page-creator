@@ -3,7 +3,6 @@ const fs = require("fs-extra")
 const childProcess = require("child_process")
 const exec = require("util").promisify(childProcess.exec)
 
-
 def runBuild
 
 	# run imba build command on the page file (this is necessary to generate css from that file)
