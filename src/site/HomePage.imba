@@ -9,11 +9,11 @@ tag SiteWidth
 	<self[mx:auto px:20px maw:$page-width]>
 		<slot>
 
-export tag Page
+export tag HomePage
 	<self>
 		<header[bdb:1px solid gray3 @dark:1px solid gray7 py:20px]> 
 			<SiteWidth[d:hcs]>
-				<h1[fw:bold fs:xl]> "My Website"
+				<h1[fw:bold fs:xl c:red6]> "My Website"
 				<nav[d:flex g:20px]> for item in ["blog", "about", "contact"]
 					<a href="#" [ws:nowrap c:inherit @hover:blue6]> item
 		
@@ -27,13 +27,6 @@ export tag Page
 
 
 
-export const layout =
-	<html lang="en">
-		<head>
-			<title> "app"
-			<style src="*">
-		<body>
-			<Page>
 
 
 
