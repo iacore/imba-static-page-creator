@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "imba -w src/server.imba",
+    "serve": "imba -w src/server.imba",
     "build": "imba src/build.imba",
     "serve-static": "http-server dist"
   },
@@ -13,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "fs-extra": "^11.1.0",
+    "fs-extra": "^11.2.0",
     "http-server": "^14.1.1"
   }
 }

@@ -8,4 +8,3 @@ export def layout pageContent
 			<style src="*">
 		<body>
 			<pageContent()>
-
